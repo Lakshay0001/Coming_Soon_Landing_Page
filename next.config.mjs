@@ -1,14 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverActions: true
-  },
+    serverActions: {},
+  }, // ✅ comma here
   logging: {
     fetches: {
-      fullUrl: true
-    }
-  },
-  turbopack: {} // explicitly add empty turbopack config to silence error
+      fullUrl: true,
+    },
+  }, // ✅ comma here
+  turbopack: {}, // explicitly add empty turbopack config to silence error
 }
 
-export default nextConfig;
+export default nextConfig
