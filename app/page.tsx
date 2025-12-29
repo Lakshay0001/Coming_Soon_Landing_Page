@@ -81,7 +81,7 @@ export default function LaunchingPage() {
             transition={{ delay: 0.8 }}
             className="py-2"
           >
-            <CountdownTimer launchDate="2026-02-01T00:00:00Z" />
+            <CountdownTimer launchDate="2026-01-14T00:00:00Z" />
           </motion.div>
 
           {/* Newsletter Form */}
